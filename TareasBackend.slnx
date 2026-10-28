@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Tareas.ControllersApi/Tareas.ControllersApi.csproj" />
+    <Project Path="src/Tareas.Core/Tareas.Core.csproj" />
+    <Project Path="src/Tareas.MinimalApi/Tareas.MinimalApi.csproj" />
+    <Project Path="src/Tareas.MinimalApiInline/Tareas.MinimalApiInline.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,33 @@
+@Tareas.MinimalApi_HostAddress = http://localhost:5223
+
+### Listar todas
+GET {{Tareas.MinimalApi_HostAddress}}/api/tareas
+Accept: application/json
+
+### Obtener por Id
+GET {{Tareas.MinimalApi_HostAddress}}/api/tareas/1
+Accept: application/json
+
+### Crear
+POST {{Tareas.MinimalApi_HostAddress}}/api/tareas
+Content-Type: application/json
+
+{
+  "titulo": "Regar las plantas",
+  "completada": false
+}
+
+### Actualizar
+PUT {{Tareas.MinimalApi_HostAddress}}/api/tareas/1
+Content-Type: application/json
+
+{
+  "titulo": "Comprar leche y pan",
+  "completada": true
+}
+
+### Eliminar
+DELETE {{Tareas.MinimalApi_HostAddress}}/api/tareas/2
+
+### Documento OpenAPI
+GET {{Tareas.MinimalApi_HostAddress}}/openapi/v1.json
